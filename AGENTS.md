@@ -77,3 +77,17 @@ Update rules:
 - append one line to Completed Tasks Log with date + short description
 
 Never fabricate progress.
+
+---
+
+## Safety Check (Mandatory)
+
+Before implementing anything, you MUST:
+
+1) Identify the single next unchecked item in docs/PROGRESS.md.
+2) Propose a short plan (max 5 bullets).
+3) List exact files you will change/create.
+4) State how you will test it (pytest command + which tests).
+5) Stop and wait for approval if the change touches more than 5 files or changes any contract/document location.
+
+Then implement ONLY that one item and update docs/PROGRESS.md.
